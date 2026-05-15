@@ -1,0 +1,6 @@
+name: ${name}
+version: ${version}
+description: ${description}
+authors: [ ${authors} ]
+main: cc.maicra999.unboom.Unboom
+api-version: "26.1"

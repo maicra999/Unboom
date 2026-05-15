@@ -1,0 +1,13 @@
+[versions]
+spotless = "8.2.1"
+shadow = "9.3.1"
+paper-api = "26.1.2.build.+"
+configurate-yaml = "4.1.2"
+
+[libraries]
+paper-api = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper-api" }
+configurate-yaml = { group = "org.spongepowered", name = "configurate-yaml", version.ref = "configurate-yaml" }
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
