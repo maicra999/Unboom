@@ -68,9 +68,9 @@ tasks {
     shadowJar {
         archiveClassifier.set("")
 
-        relocate("org.spongepowered.configurate", "cc.maicra999.lunalike.libs.org.spongepowered.configurate")
-        relocate("org.yaml.snakeyaml", "cc.maicra999.lunalike.libs.org.yaml.snakeyaml")
-        relocate("io.leangen.geantyref", "cc.maicra999.lunalike.libs.io.leangen.geantyref")
+        relocate("org.spongepowered.configurate", "cc.maicra999.unboom.libs.org.spongepowered.configurate")
+        relocate("org.yaml.snakeyaml", "cc.maicra999.unboom.libs.org.yaml.snakeyaml")
+        relocate("io.leangen.geantyref", "cc.maicra999.unboom.libs.io.leangen.geantyref")
     }
 
     build {
