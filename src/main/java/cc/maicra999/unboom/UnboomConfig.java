@@ -41,7 +41,7 @@ public class UnboomConfig {
     public List<EntityType> excludedEntities = List.of(EntityType.ITEM);
 
     @Comment("List of worlds where all protections are not applied.")
-    public List<String> excludedWorlds = List.of();
+    public List<String> excludedWorlds = List.of("shigen_the_end", "shigen", "world_minecraft_shigen");
 
     @Comment("Logs whenever a protection applies. This is mostly for debugging.")
     public boolean logging = false;
